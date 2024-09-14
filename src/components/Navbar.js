@@ -57,7 +57,7 @@ function Navbar() {
           </div>
         </div>
         <div className="menu-dropdown">
-          <Link to={"/design"} className="menu-button">
+          <Link to={"/design/fea"} className="menu-button">
             Design Solutions 	&darr;
           </Link>
           <div className="dropdown-content">
