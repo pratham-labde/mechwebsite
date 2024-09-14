@@ -1,0 +1,84 @@
+/* Footer styles */
+.footer-container {
+    display: block;
+    width: 100%;
+    background-color: #004c97;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 0;
+    padding: 0 20px;
+  }
+  
+  .company-logo {
+    height: 50px; /* Adjust logo height as needed */
+  }
+  
+  .footer-menu {
+    display: flex;
+  }
+  
+  .footer-menu-column {
+    margin-right: 40px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3); /* Faint thin line */
+    padding-right: 20px; /* Add padding for spacing */
+  }
+  
+  .footer-menu-column:last-child {
+    margin-right: 0; /* Remove margin from last column */
+    border-right: none; /* Remove border from last column */
+    padding-right: 0; /* Remove padding from last column */
+  }
+  
+  .footer-menu-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-menu-item {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-menu-item:hover {
+    color: #6da7f7;
+  }
+  
+  .bottom-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #02367a;
+  }
+  
+  .footer-company-rights {
+    color: azure;
+  }
+  
+  .footer-company-terms {
+    display: flex;
+  }
+  
+  .privacy,
+  .terms {
+    text-decoration: none;
+    color: azure;
+    margin-left: 20px;
+  }
+  

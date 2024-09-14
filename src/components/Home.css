@@ -1,0 +1,124 @@
+.top-banner{
+    width: 100%;
+    margin: 0;
+    min-height:300px;
+    background-color: rgb(82, 218, 252);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.container-home{
+    display: flex;
+    flex-direction: column;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0 30px 0;
+}
+.service-header, .projects-header{
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0 0 0;
+}
+.introduction{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+.intro-heading{
+    font-size: 75px;
+    margin:0;
+    min-width: 45%;
+    align-content: center;
+    text-align: center;
+
+}
+.intro-content{
+text-align: justify;
+margin: 0;
+font-size: 25px;
+margin-right: 75px;
+}
+
+.catlogue-btn{
+    text-decoration: none;
+    border: solid 1px black;
+}
+.text-overlay {
+    margin: 0 0 0 0 ;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color:transparent; /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.catalogue-btn {
+    position: absolute;
+    transform: translate(-50%, -125%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  
+  .catalogue-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .why-choose-us {
+    text-align: left;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .why-choose-us ul li {
+    
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 10px solid #007bff;
+    border-radius: 5px;
+  }
+  .choice{
+    font-size: 75px;
+    margin:0;
+    min-width: 45%;
+    align-content: center;
+    text-align: center;
+  }
+  .choice-content{
+    text-align: justify;
+margin: 0;
+font-size: 25px;
+margin-left: 75px;
+  }

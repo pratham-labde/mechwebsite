@@ -1,0 +1,67 @@
+.machine-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: justify;}
+
+.machine-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.machine-description {
+    margin-bottom: 20px;
+}
+
+.machine-description p {
+    margin-bottom: 10px;
+}
+
+.machine-services {
+    font-weight: bold;
+}
+
+.machine-list {
+    margin-bottom: 20px;
+}
+
+.machine-list-item {
+    margin-bottom: 10px;
+}
+
+.machine-footer {
+    margin-top: 20px;
+}
+.md-heading-1{
+    margin: 0 0 0 0 ;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color:transparent; /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .md-top-banner{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    min-height:300px;
+    background-color: rgb(82, 218, 252);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.md-image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
