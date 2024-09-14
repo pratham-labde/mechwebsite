@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to={'/'}>
+        <Link to={'/mechwebsite/'}>
         <img src={companyLogo} alt="Logo" />
         </Link>
       </div>
