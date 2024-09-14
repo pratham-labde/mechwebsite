@@ -25,7 +25,7 @@ function Navbar() {
       </button>
       {/* Navbar menu items */}
       <div className={`navbar-menu ${showMenu ? "show" : ""}`}>
-        <Link to={"/"} className="menu-button">
+        <Link to={"/mechwebsite/"} className="menu-button">
           Home
         </Link>
         <Link to={"/about"} className="menu-button">
