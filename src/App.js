@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/mechwebsite/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/pumping' element={<PumpingSolution/>}/>
         <Route path='/contact' element={<ContactUs/>}/>
